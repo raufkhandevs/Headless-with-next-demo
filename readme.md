@@ -1,12 +1,12 @@
-In this code we’re setting up a Next.js project that uses Static Site Generation (SSG) to create a single static page. We’re pulling in data from WordPress using GraphQL.
+In this code I've set up a Next.js project that uses Static Site Generation (SSG) to create a single static page. I'm pulling in data from WordPress using GraphQL.
 
 Here’s a quick breakdown of the code:
 
-Apollo Client Setup: We’ll set up Apollo Client to connect to the WordPress GraphQL API.
+Apollo Client Setup: I've set up Apollo Client to connect to the WordPress GraphQL API.
 
-GraphQL Query: We’ve got a query that fetches page content and ACF blocks based on a page slug.
+GraphQL Query: I’ve got a query that fetches page content and ACF blocks based on a page slug.
 
-Block Render Component: We’re creating a BlockRender component that takes care of rendering different types of ACF blocks. This keeps the page component clean.
+Block Render Component: I’m creating a BlockRender component that renders different types of ACF blocks. This keeps the page component clean.
 
 Next.js Page Component: The page uses getStaticProps to fetch data at build time and getStaticPaths to determine which pages to pre-render.
 
